@@ -1,0 +1,177 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.logo-web {
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    color: #4d5ae5;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.logo-studio{    
+    color: #2e2f42;    
+}
+
+.nav-bar {
+    font-weight: 500;
+    color: #2e2f42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-bar:hover,
+.nav-bar:focus {
+    color: #404bbf;
+}
+
+.adr {
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    font-style: normal;
+}
+
+.contacts {
+    font-size: 16px;
+    color: #434455;
+    line-height: 1.5;
+    font-style: normal;  
+    letter-spacing: 0.02em
+}
+
+
+
+.contacts:hover,
+.contacts:focus {
+    color: #404bbf;
+}
+
+.section-title{
+    background-color: #2e2f42;
+}
+
+.header-one {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #fff;
+    line-height: 1.07;
+    letter-spacing: 0.02em
+}
+
+.order-btn {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;    
+    background-color: #4d5ae5;
+    cursor: pointer;
+    line-height: 1.5;
+    letter-spacing: 0.04em
+}
+
+.order-btn:hover,
+.order-btn:focus {
+    background-color: #404bbf;
+}
+
+.adv-header {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em
+}
+
+.adv-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-header{
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    color: #2e2f42;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize
+}
+
+.team-list{
+    background-color: #ffffff;
+}
+
+.team-name {
+    font-weight: 500;
+    font-size: 20px;    
+    line-height: 1.2;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.portf-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.portf-service {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+}
+
+.portf-serv-type {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo-studio-foot {    
+    color: #f4f4fd;           
+}
+
+.foot-text {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #f4f4fd;
+    letter-spacing: 0.02em;
+}
