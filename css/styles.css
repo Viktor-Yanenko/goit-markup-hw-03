@@ -4,31 +4,18 @@ body {
     background-color: #ffffff;
 }
 
-.page-container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-main {
-    flex-grow: 1;
-}
-
-a{
+a {
     text-decoration: none;
 }
 
 ul {
     list-style-type: none;
+    margin: 0;
+    padding-left: 0;
 }
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
-}
-
-ul {
-    margin: 0;
-    padding-left: 0;
 }
 
 img {
@@ -40,7 +27,22 @@ img {
     padding-left: 15;
     padding-right: 15;
     margin: 0 auto;
+    /* display: flex; */
+}
+
+.page-container {
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .logo-web {
@@ -55,12 +57,12 @@ img {
     padding-bottom: 24px;
 }
 
-.logo-studio{    
+.logo-studio {
     color: #2e2f42;
-    margin-right: 76px;   
+    margin-right: 76px;
 }
 
-.navigation{
+.navigation {
     display: flex;
     align-items: center;
 }
@@ -76,7 +78,7 @@ img {
     color: #2e2f42;
     font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.02em;   
+    letter-spacing: 0.02em;
 }
 
 .nav-bar:hover,
@@ -96,20 +98,25 @@ img {
 .adr-list {
     display: flex;
     align-items: center;
-    gap: 40px;    
+    gap: 40px;
 }
 
 .contacts {
     font-size: 16px;
     color: #434455;
     line-height: 1.5;
-    font-style: normal;  
-    letter-spacing: 0.02em;
+    font-style: normal;
+    letter-spacing: 0.02em
 }
 
 .contacts:hover,
 .contacts:focus {
     color: #404bbf;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+    display: flex;
 }
 
 .title {
@@ -119,8 +126,8 @@ img {
     padding-bottom: 188px;
 }
 
-.section-title{
-    background-color: #2e2f42;    
+.section-title {
+    background-color: #2e2f42;
 }
 
 .header-one {
@@ -140,7 +147,7 @@ img {
 .order-btn {
     font-weight: 500;
     font-size: 16px;
-    color: #fff;    
+    color: #fff;
     background-color: #4d5ae5;
     cursor: pointer;
     line-height: 1.5;
@@ -148,7 +155,7 @@ img {
     border: none;
     border-radius: 4px;
     width: 169px;
-    height: 56px; 
+    height: 56px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -157,17 +164,6 @@ img {
 .order-btn:hover,
 .order-btn:focus {
     background-color: #404bbf;
-}
-
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.adv-list {
-    display: flex;
-    gap: 24px;
-    padding: 0;
 }
 
 .visually-hidden {
@@ -181,6 +177,12 @@ img {
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.adv-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
 }
 
 .adv-item {
@@ -207,19 +209,23 @@ img {
 }
 
 .team-cont {
-    display: flex;        
+    display: flex;
     flex-direction: column;
 }
 
-.team-header{
+.team-header {
     font-weight: 700;
     font-size: 36px;
     text-align: center;
     color: #2e2f42;
     line-height: 1.11;
     letter-spacing: 0.02em;
-    text-transform: capitalize; 
+    text-transform: capitalize;
     margin-bottom: 72px;
+}
+
+.team-list {
+    background-color: #ffffff;
 }
 
 .team-list {
@@ -228,9 +234,9 @@ img {
     padding: 0;
 }
 
-.team-list-item{
+.team-list-item {
     background-color: #ffffff;
-    width: calc((100% - 96px) / 4);
+    width: calc((100% - 72px) / 4);
     padding-bottom: 32px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
@@ -238,7 +244,7 @@ img {
 
 .team-name {
     font-weight: 500;
-    font-size: 20px;    
+    font-size: 20px;
     line-height: 1.2;
     text-align: center;
     color: #2e2f42;
@@ -277,9 +283,6 @@ img {
     flex-wrap: wrap;
 }
 
-.portf-list-item {
-}
-
 .portf-service {
     font-weight: 500;
     font-size: 20px;
@@ -302,16 +305,15 @@ img {
 .portf-text-cont {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
-    border-right: 1px solid #e7e9fc;    
+    border-right: 1px solid #e7e9fc;
 }
 
 .footer {
-    background-color: #2e2f42;
-    display: flex;    
+    background-color: #2e2f42;    
 }
 
-.logo-studio-foot {    
-    color: #f4f4fd;         
+.logo-studio-foot {
+    color: #f4f4fd;
 }
 
 .foot-text {
@@ -320,12 +322,10 @@ img {
     color: #f4f4fd;
     letter-spacing: 0.02em;
     margin-top: 16px;
+    width: 264px;
 }
 
 .foot {
-    display: flex;
-    flex-direction: column;
     padding-top: 100px;
     padding-bottom: 100px;
-    width: 264px;
 }
