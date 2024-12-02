@@ -125,12 +125,12 @@ main {
 .title {
     display: flex;
     flex-direction: column;
-    padding-top: 188px;
-    padding-bottom: 188px;
 }
 
 .section-title {
     background-color: #2e2f42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .header-one {
@@ -141,7 +141,7 @@ main {
     line-height: 1.07;
     letter-spacing: 0.02em;
     margin-bottom: 48px;
-    width: 496px;
+    max-width: 496px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -157,7 +157,7 @@ main {
     letter-spacing: 0.04em;
     border: none;
     border-radius: 4px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     display: block;
     margin-left: auto;
