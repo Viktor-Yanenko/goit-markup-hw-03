@@ -242,7 +242,6 @@ main {
 .team-list-item {
     background-color: #ffffff;
     width: calc((100% - 72px) / 4);
-    padding-bottom: 32px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
@@ -254,8 +253,12 @@ main {
     text-align: center;
     color: #2e2f42;
     letter-spacing: 0.02em;
-    margin-top: 32px;
     margin-bottom: 8px;
+}
+
+.employee {
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .team-text {
